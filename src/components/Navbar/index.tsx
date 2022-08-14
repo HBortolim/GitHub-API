@@ -4,9 +4,9 @@ import './styles.css';
 
 const Navbar = () => {
   return (
-    <nav className="navbar main-nav">
+    <nav className="navbar main-nav navbar-light bg-primary">
       <Link to="/" className="nav-logo-text">
-        <h4 className="text-primary">ViaCEP</h4>
+        <h4 className="nav-title">GitHub API</h4>
       </Link>
     </nav>
   );
